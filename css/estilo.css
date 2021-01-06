@@ -87,7 +87,7 @@ a.reserva {
 	float: right;
 }
 
-/* Barra de Navegação ertical
+/* Barra de Navegação Vertical
 */
 #menu {
 	margin-top: 15px;
@@ -143,4 +143,51 @@ ul#navegacao a:hover {
 
 #rodape {
 	clear: both;
+	padding: 16px;
+	background: #fff url(../imagens/bg-rodape.png) repeat-x top;
+	color: #0b8448;
+}
+
+/* Formatação de Textos */
+
+h2 {
+	color: #0b8448;
+	font: 1.1em;
+	padding: 15px 0px;
+}
+
+p {
+	font-size: 1em;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+/* Formatação Area Lateral */
+#beneficios li {
+	padding: 8px;
+	border-bottom: 1px dotted #0b8448;
+	height: 6em;
+}
+
+#beneficios li a img {
+	float: left;
+	margin: 8px;
+}
+
+#beneficios li a p {
+	font-size: 0.8em;
+	color: #000;
+}
+
+#beneficios li a h3 {
+	font-size: 1.1em;
+	color: #0b8448;
+	padding: 5px 0;
+	background: url(../imagens/ornamento.png) no-repeat center right;
+}
+
+#beneficios li:hover {
+	background: #c7dcb7;
+	cursor: pointer;
+
 }
