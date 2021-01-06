@@ -11,7 +11,7 @@ body {
 }
 
 #container {
-	background: #c7dcb7;
+	background: #c7dcb7 url(../imagens/bg-container.png) top center repeat-y;
 	margin: 0 auto;
 	min-width: 740px;
 	max-width: 1180px;
@@ -85,5 +85,62 @@ a.reserva {
 	color: #fff;
 	padding: 5px 10px;
 	float: right;
+}
 
+/* Barra de Navegação ertical
+*/
+#menu {
+	margin-top: 15px;
+}
+
+ul {
+	list-style: none;
+}
+
+ul#navegacao {
+	float: left;
+}
+
+ul#navegacao a {
+	text-transform: uppercase;
+	font-size: 0.8em;
+	font-weight: bold;
+	padding: 5px;
+	color: #0b8448;
+	line-height: 30px;
+}
+
+ul#navegacao a:hover {
+	background: #c7dcb7;
+}
+
+.depoimento {
+	width: 226px;
+	height: 164px;
+	float: right;
+}
+
+/* Área de Conteúdos *****************/
+
+#area-principal {
+	float: left;
+	width: 50%;
+	background: url(../imagens/bg-area-principal.png) top left repeat-x;
+	padding: 15px 0px;
+}
+
+#area-lateral {
+	float: right;
+	width: 50%;
+	background: url(../imagens/bg-area-lateral.png) top left repeat-x;
+	padding: 20px 0px;
+}
+
+.conteudo {
+	margin: 0 auto;
+	width: 90%;
+}
+
+#rodape {
+	clear: both;
 }
